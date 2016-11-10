@@ -1,0 +1,19 @@
+body, h1, p{
+    font-size: 52px;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color:darkturquoise;
+    margin: 50px 0 25px 0;
+}
+
+body{
+
+    color:darkorchid;
+}
+
+p{
+    font-family:fantasy;
+}

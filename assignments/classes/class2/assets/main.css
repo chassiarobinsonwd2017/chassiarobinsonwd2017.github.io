@@ -1,0 +1,28 @@
+p{
+    font-size: 30px;
+}
+.bigdiv{
+    height: 100px;
+    background-color: aquamarine;
+    width: 100px;
+
+}
+#childDiv{
+    height: 50px;
+    background-color: darkred;
+    width: 500px;
+
+}
+.bigdiv div{
+    height: 50px;
+    background-color: darkmagenta;
+    width: 500px;
+
+}
+nav{
+    height: 150px;
+    width: 50px;
+    padding: 50px;
+    margin: 30px;
+    border: 3px solid green;
+}
