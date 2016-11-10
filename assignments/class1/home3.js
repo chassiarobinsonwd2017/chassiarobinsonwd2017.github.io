@@ -1,15 +1,15 @@
 function changeFont(){
 
-    if (currentFont == "inherit"){
+    if (currentFont == "monospace"){
         document.body.style.fontFamily = "cursive";
         currentFont = "cursive";
     } else {
-        document.body.style.fontFamily = "fantasy";
-        currentFont = "fantasy";
+        document.body.style.fontFamily = "monospace";
+        currentFont = "monospace";
     }
     return currentFont;
 
 }
 
 document.getElementById("myButton").onclick = changeFont;
-var currentFont = "inherit";
+var currentFont = "monospace";
