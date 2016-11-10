@@ -5,6 +5,7 @@ p{
     height: 100px;
     background-color: aquamarine;
     width: 100px;
+    position:relative;
 
 }
 #childDiv{
@@ -17,12 +18,56 @@ p{
     height: 50px;
     background-color: darkmagenta;
     width: 500px;
+    position: relative;
+    top: 40px;
+    left: 150px;
+    border: 3px solid green;
+
+}
+nav div{
+    height: 50px;
+    background-color: orchid;
+    width: 500px;
+    display: inline-block;
 
 }
 nav{
     height: 150px;
     width: 50px;
-    padding: 50px;
-    margin: 30px;
+    padding: 50px 10px;
+    margin: 30px auto;
     border: 3px solid green;
+    text-align: center;
+}
+main article{
+    height: 200px;
+    width: 20%;
+    padding: 30px 10px;
+    margin: 5%;
+    border: 3px solid green;
+    float: right;
+
+
+}
+footer{
+      clear:both;
+}
+figure{
+    float:left;
+}
+section{
+    width: 70%;
+    background-color: darkslategray;
+    overflow: hidden;
+    float: left;
+}
+aside{
+     background-color: aquamarine;
+    height: 500px;
+    width: 25%;
+    float:right;
+}
+.bigdiv .offthepage{
+    position:absolute;
+    top:100px;
 }
