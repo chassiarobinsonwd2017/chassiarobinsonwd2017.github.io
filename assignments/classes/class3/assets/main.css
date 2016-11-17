@@ -71,15 +71,12 @@ aside{
     position:absolute;
     top:100px;
 }
-figurecaption{
-    display:none;
+figcaption{
+   display:none;
 }
-
 img:hover{
     /*opacity: .5;*/
 }
 img:hover ~ figcaption{
-   /* display:block;*/
+    /*display: block;*/
 }
-
-
