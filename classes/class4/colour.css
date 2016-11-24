@@ -1,0 +1,31 @@
+
+.red {
+    background-color: rgb(255, 0, 0);
+    opacity: .5;
+}
+div{
+    width: 300px;
+    height:300px;
+    margin:20px;
+    float:left;
+}
+.blue {
+    background:rgba(10,10,225, .2);
+    position:relative;
+    right:100px;
+}
+.green{
+    background:hsl(76, 65%, 25%);
+}
+.grey{
+    background: hsl(20, 5%, 35%);
+}
+.orange{
+    background: hsla(20, 85%, 45%, .5);
+    position:relative;
+    right:100px;
+    colour:hsla(330,100%,20%,1);
+}
+.yellow{
+    background: hsl(57, 95%, 65%);
+}
