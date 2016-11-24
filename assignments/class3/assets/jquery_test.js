@@ -1,12 +1,13 @@
 $(function(){
 
-    var myFooter = $(".footerDiv");
+    var myFooter = $("#footerDiv");
+    var footer = $("footer");
 
 
- myFooter.on("mouseenter", function(){
-     $(this).fadeIn();
+ footer.on("mouseenter", function(){
+     myFooter.fadeIn();
  }).on("mouseleave", function(){
-     $(this).fadeOut();
+     myFooter.fadeOut();
 
  });
 

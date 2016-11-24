@@ -76,19 +76,18 @@ aside div{
 }
 footer{
     text-align: center;
-    border: 3px solid black;
+
 
     position: fixed;
     height: 100px;
     width: 100%;
     z-index: 30;
     bottom: 0;
-    display: none;
 
 }
 footer div{
     background-color: darkblue;
     height: 100%;
     display: none;
-
+border: 3px solid black;
 }
