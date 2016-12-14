@@ -36,7 +36,32 @@ main{
     background: #F2C94C;
 
 }
-
+#hamburger
+{
+    height:50px;
+    width:50px;
+    background:#fff;
+    border:1px solid #333;
+    cursor:pointer;
+    position:relative;
+}
+#hamburger::before,#hamburger::after{
+    content:'';
+    display:block;
+    width:30px;
+    border-color: #333;
+    border-style: solid;
+    border-width:1px 0;
+    position:absolute;
+    top:11px;
+    left:9px;
+    height:11px;
+}
+#hamburger::after{
+    border-top-width: 0;
+    bottom:11px;
+    top:auto;
+}
 
 footer{
      height:397px;
