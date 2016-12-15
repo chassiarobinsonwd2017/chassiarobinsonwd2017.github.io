@@ -1,0 +1,54 @@
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+    font-size: 16px;
+    color: #333;
+}
+
+header{
+    background-color: hsl(30,100%,50%);
+    padding:50px;
+    /*overflow:hidden;*/
+}
+header::after{
+    clear:both;
+    content:'';
+    display:block;
+}
+.logo{
+    float:left;
+}
+
+nav{
+    float:right;
+    color:purple;
+}
+
+nav li a{
+    color:purple;
+    text-decoration: none;
+}
+
+nav >ul>li{
+   display:inline-block;
+    padding:10px;
+    margin:10px;
+    border:1px solid hsl(30,100%,80%);
+    position:relative;
+
+}
+nav li div{
+   display:none;
+    position: absolute;
+    background-color: aquamarine;
+    border: 1px orange;
+    border-radius: 0 0 10px 10px;
+    top:40px;
+    left:0px;
+    width:200px;
+}
+
+/*nav li:hover div{
+    display:block;
+}*/
