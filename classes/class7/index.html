@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+      <head>
+             <title> Class 7 work</title>
+          <link href="main.css" rel="stylesheet">
+    </head>
+    <body>
+<div id="clickme" data-something="something">click here</div>
+ <div id="menu" >menu here <br>this is menu<br></div>
+        <p> hdkd fkasjkdlf jksfjkdfjdkasfjksa<a href="3" data-title="some help text">skdfkjdfj</a></p>
+
+        <main>
+
+        <table>
+            <caption>A table of people</caption>
+            <thead>
+                <tr>
+                    <th>name</th>
+                    <th>place</th>
+                    <th>birth</th>
+
+
+                </tr>
+
+
+            </thead>
+            <tbody>
+                 <tr>
+                     <td>shmuli</td>
+                      <td>tokyo</td>
+                       <td>907</td>
+                </tr>
+               <tr>
+                     <td>natalie</td>
+                      <td>oslo</td>
+                       <td rowspan="2">9456</td>
+                </tr>
+            <tr>
+                     <td>yanky doodle</td>
+
+                       <td colspan="2"> monroe</td>
+                </tr>
+
+
+            </tbody>
+
+
+       </table>
+            <form id="myform">
+                <fieldset>
+                    <legend>tell me about yourself</legend>
+                 <input type="text" name="myname" placeholder="type your name" required>
+                <input type="number" name="myage" min=18 max=55 step =3 disabled>
+                <input type="email" name="myemail" placeholder="type email" autofocus>
+                </fieldset>
+                <div>choose fav colour</div>
+                <input type="checkbox" name ="favecolour" value="red" id="colour_red"><label for="colour_red">red</label>
+                <input type="checkbox" name ="favecolour" value="yellow" id="colour_yellow"><label for="colour_yellow">yellow</label>
+
+                <div> choose 1 favorite shape</div>
+                <input type="radio" name="faveshape" value="square" if="square"><label for="square">square</label>
+                <input type="radio" name="faveshape" value="circle" if="square"><label for="circle">circle</label>
+                <input type="checkbox" name ="favecolour" value="blue" id="colour_blue"><label for="colour_blue">blue</label>
+                <input type="password" name="mypass"  maxlength="5">
+               <input type="file" name="myfile" multiple>
+                <input type="range" name="myrange" min=0 max=20 value=25>
+                <input type="reset" value="click here rest">
+
+                <div>whats the weather</div>
+                <select name="weather">
+                           <option value="freezing">Freezing</option>
+                           <option value="warm">warm</option>
+                            <option value="hot">hot</option>
+                </select>
+                <textarea rows="4" cols="100" name="message"></textarea>
+                 <input type ="submit" value ="click me">
+            </form>
+
+        </main>
+    </body>
+
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+
+
+</html>
