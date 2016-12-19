@@ -1,20 +1,35 @@
 $(function(){
 
-    var invisible = true;
-    var myRight = "20px";
+        var s = "50";
+        var l = "50";
 
-    $("#clickme").on("click", function(){
-        $("#menu").animate(
-            {right: myRight},
-            {queue: false, duration: 500, easing: "linear"}
+
+     var saturation= ("#slider1");
+     var lightness= ("#slider2");
+     var circle=("#circle");
+
+    $saturation.on("mouseover", function(){
+       $(circle).next().css("color",$(circle).val());
+
+           {
+                 $("#circle").css("background", "hsl(0, "+s+"%, "+l+"%)");
+            }
 
         );
 
-        if (invisible){
-            myRight = "-100px";
-            invisible = false;
-        }else{
-            myRight = "20px";
-            invisible = true;
-        }
+    })
+     $saturation.on("mouseover", function(){
+       $(circle).next().css("color",$(circle).val());
+
+           {
+                  $("#circle").data("color","hsl(0, "+s+"%, "+l+"%)");
+            }
+
+        );
+
+    })
+
     });
+
+
+
