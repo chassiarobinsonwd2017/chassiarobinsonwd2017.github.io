@@ -9,3 +9,12 @@
     margin: 0px 512px;
 
 }
+
+#circle::after{
+            content: attr(data-color);
+        }
+
+#circle:hover::after{
+    display: inline-block;
+    background: attr(data-color);
+}
