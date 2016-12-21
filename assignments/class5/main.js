@@ -2,12 +2,12 @@ $(function(){
 
 
     var invisible = true;
-    var myRight = "100px";
+    var right = "100px";
 
 
-     $(".hamburger").on("click", function(){
+     $(" .hamburger").on("click", function(){
         $("nav").animate(
-            {right: myRight},
+            {right: rightight},
             {queue: false, duration: 500, easing: "linear"}
 
 
@@ -15,11 +15,12 @@ $(function(){
 
 
         if (invisible){
-            myRight = "-100px";
+            right = "-100px";
             invisible = false;
         }else{
-            myRight = "100px";
+            right = "100px";
     invisible = true;
+
         }
      });
 
