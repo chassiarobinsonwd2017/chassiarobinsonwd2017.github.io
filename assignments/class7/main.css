@@ -1,0 +1,20 @@
+
+#circle {
+	width: 400px;
+	height: 400px;
+	background: hsl(0, 50%, 50%);
+	border-radius: 200px;
+	border-radius: 200px;
+	border-radius: 200px;
+    margin: 0px 512px;
+
+}
+
+#circle::after{
+            content: attr(data-color);
+        }
+
+#circle:hover::after{
+    display: inline-block;
+    background: attr(data-color);
+}

@@ -36,7 +36,14 @@ main{
     background: #F2C94C;
 
 }
-
+.hamburger
+{
+    height:50px;
+    width:50px;
+    background:#fff;
+    border:1px solid #333;
+    float:right;
+}
 
 footer{
      height:397px;
