@@ -1,10 +1,4 @@
-body{
- background: linear-gradient(#ffffff 50%, rgba(255,255,255,0) 0) 0 0,
-radial-gradient(circle closest-side, #FFFFFF 53%, rgba(255,255,255,0) 0) 0 0,
-radial-gradient(circle closest-side, #FFFFFF 50%, rgba(255,255,255,0) 0) 55px 0 #48B;
-background-size:110px 200px;
-background-repeat:repeat-x;
-}
+
 
 div{
     width:200px;
@@ -66,4 +60,20 @@ radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
 radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
 background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
 background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+}
+html{
+    background: transparent url(koala.jpeg) no-repeat fixed 0 0 / cover;
+    position:relative;
+}
+html::after{
+    position:absolute;
+    content:'';
+    height:100%;
+    width:100%;
+    top:0;
+    left:0;
+    background: hsla(40,20%,90%, .8);
+    z-index: -1;
+
+
 }

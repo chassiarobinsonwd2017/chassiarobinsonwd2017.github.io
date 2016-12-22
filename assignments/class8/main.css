@@ -1,0 +1,29 @@
+html{
+    background: transparent url(koala.jpeg) no-repeat fixed 0 0 / cover;
+    position:relative;
+    height:100%;
+}
+
+html::after{
+    position:absolute;
+    content:'';
+    height:100%;
+    width:100%;
+    top:0;
+    left:0;
+    background: linear-gradient(to top,transparent,rgba(199, 217, 171, 0.7));
+    z-index: -1;
+
+
+}
+nav {
+    height: 80px;
+    background: #FFFEFE;
+    position: absolute;
+    width: 100%;
+
+
+}
+nav li{
+    display:inline-block;
+}
