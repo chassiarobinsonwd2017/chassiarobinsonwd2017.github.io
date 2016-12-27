@@ -1,0 +1,79 @@
+
+
+div{
+    width:200px;
+    height:100px;
+    margin:20px;
+
+}
+#div1{
+    background-color: azure;
+    background:linear-gradient(orange,green);
+}
+#div2{
+    background-color: navajowhite;
+    background:linear-gradient(purple,green,pink,yellow);
+}
+#div3{
+    background-color: coral;
+    background:linear-gradient(orchid 30%,yellow 30%,blue 20%);
+}
+#div4{
+    background-color: coral;
+    background:linear-gradient(45deg, red, orchid 30%,yellow 30%,blue 20%, green 40%);
+}
+#div5 {
+    position: relative;
+    width:auto;
+    height:auto;
+    display:inline-block;
+}
+#div5::after{
+    content:'';
+    display:inline-block;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background: linear-gradient(to right,hsla(0,20%,20%,.1),hsla(0,20%,20%, .8));
+}
+#div6{
+    background-color: red;
+    background: radial-gradient(at top right, red,green);
+}
+#div7{
+    width:600px;
+    background-color: red;
+    background: radial-gradient(circle closest-side, red,green);
+}
+#div8{
+    background-color: red;
+    background: repeating-linear-gradient(yellow,yellow 10px,red 10px,red 20px);
+}
+#div9{
+    background-color:black;
+background-image:
+radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+}
+html{
+    background: transparent url(koala.jpeg) no-repeat fixed 0 0 / cover;
+    position:relative;
+}
+html::after{
+    position:absolute;
+    content:'';
+    height:100%;
+    width:100%;
+    top:0;
+    left:0;
+    background: hsla(40,20%,90%, .8);
+    z-index: -1;
+
+
+}
