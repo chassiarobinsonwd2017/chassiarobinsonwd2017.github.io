@@ -11,7 +11,7 @@ body {
 
 header {
     height: 54px;
-    width: 1024px;
+
     background: #EB5757;
     position: relative;
     margin: 0px;
@@ -21,18 +21,19 @@ nav {
     height: 374px;
     background: #FFFEFE;
     position: absolute;
-    width: 230px;
+    width: 270px;
     padding: 20px;
-    margin: 0px 1024px;
+    margin: 0px;
+    right:-500px;
 }
 
 
 
 
 main{
-    width:  1024px;
+    overflow: hidden;
     position:relative;
-     height: 573px;
+    height: 573px;
     background: #F2C94C;
 
 }
@@ -47,7 +48,7 @@ main{
 
 footer{
      height:397px;
-     width: 1024PX;
+
      background:#F2994A;
      margin: 0px 0px 60px;
 }

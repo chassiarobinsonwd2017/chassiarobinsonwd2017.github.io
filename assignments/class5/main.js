@@ -5,9 +5,9 @@ $(function(){
     var right = "100px";
 
 
-     $(" .hamburger").on("click", function(){
+     $(".hamburger").on("click", function(){
         $("nav").animate(
-            {right: rightight},
+            {right: right},
             {queue: false, duration: 500, easing: "linear"}
 
 
@@ -15,7 +15,7 @@ $(function(){
 
 
         if (invisible){
-            right = "-100px";
+            right = "-500px";
             invisible = false;
         }else{
             right = "100px";
@@ -24,7 +24,7 @@ $(function(){
         }
      });
 
-
+});
 
 
 

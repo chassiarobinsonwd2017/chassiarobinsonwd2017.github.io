@@ -7,14 +7,21 @@
 	border-radius: 200px;
 	border-radius: 200px;
     margin: 0px 512px;
-
+    position:relative;
 }
 
 #circle::after{
             content: attr(data-color);
-        }
+            position:absolute;
+            height:50%;
+            bottom:0;
+            left:0;
+            width:50%;
+            background: rgba(255,255,255, .5);
+            display:none;
+
+}
 
 #circle:hover::after{
-    display: inline-block;
-    background: attr(data-color);
+    display: block;
 }

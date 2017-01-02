@@ -2,6 +2,7 @@ html{
     background: transparent url(koala.jpeg) no-repeat fixed 0 0 / cover;
     position:relative;
     height:100%;
+    overflow: hidden;
 }
 
 html::after{
@@ -16,14 +17,76 @@ html::after{
 
 
 }
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
 nav {
-    height: 80px;
+    height: auto;
     background: #FFFEFE;
     position: absolute;
     width: 100%;
+    background-color: transparent;
+    margin-top: 30px;
+    margin-left: 20px;
 
 
+}
+nav img{
+    display: inline-block;
+
+    position: absolute;
+
+}
+
+#nav{
+    margin-left: 130px;
+    margin-top: 20px;
+    margin-bottom: 60px;
 }
 nav li{
     display:inline-block;
+    font-family: Caviar Dreams;
+    font-size: 18px;
+    color: darkgreen;
+    padding: 20px 50px 20px 20px;
+    position: relative;
+
+
 }
+#dropdown {
+    height:auto;
+    background: #FFFEFE;
+    position: absolute;
+    width: auto;
+    padding: 20px;
+    margin: 0px;
+    right:-500px;
+    display: inline-block;
+    background-color: darkseagreen;
+    margin-top: 90px;
+
+}
+
+
+nav:hover{
+    display:inline-block;
+    background:hsla(10, 50%, 100%,.5);
+    width:1340px;
+}
+nav li:hover{
+    background-color: darkseagreen;
+}
+#about{
+    display: inline-block
+}
+#dropdown li{
+
+    font-family: Caviar Dreams;
+    font-size: 15px;
+    color: darkgreen;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
