@@ -55,18 +55,15 @@ nav li{
 
 
 }
-#dropdown {
-    height:auto;
-    background: #FFFEFE;
+#dropdown{
+  height: 150px;
     position: absolute;
-    width: auto;
-    padding: 20px;
+    width: 150px;
+    padding: 10px;
     margin: 0px;
-    right:-500px;
-    display: inline-block;
-    background-color: darkseagreen;
-    margin-top: 90px;
-
+    right:-400px;
+   background-color:white;
+    top: 80px;
 }
 
 
@@ -79,14 +76,15 @@ nav li:hover{
     background-color: darkseagreen;
 }
 #about{
-    display: inline-block
+    display: inline-block;
 }
 #dropdown li{
 
     font-family: Caviar Dreams;
     font-size: 15px;
-    color: darkgreen;
+
     padding-bottom: 10px;
     padding-top: 10px;
+    font-style: oblique;
 }
 

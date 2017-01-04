@@ -19,9 +19,12 @@ $(function(){
             invisible = false;
         }else{
             right = "730px";
-    invisible = true;
+            invisible = true;
 
         }
      });
 
 });
+
+
+
