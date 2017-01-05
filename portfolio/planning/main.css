@@ -1,0 +1,14 @@
+
+@font-face {
+    font-family: 'entypo';
+    src: url('Entypo.otf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+#life{
+    font-family: 'entypo', sans-serif;
+    margin: 1.2em;
+    font-size: 1.4em;
+}
