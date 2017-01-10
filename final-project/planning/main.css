@@ -1,0 +1,48 @@
+body{
+    font-size: 1em;
+    line-height: 1.4em;
+    font-family: sans-serif;
+}
+h3{
+    margin-top: 50px;
+
+    font-family: 'Lato', sans-serif;
+    font-size: 35px;
+}
+.railway{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    line-height: 1.6em;
+     font-size: 1em;
+}
+
+.colors li{
+    height: 150px;
+    width: 180px;
+    display: inline-block;
+    padding: 10px;
+}
+
+.colors li:nth-child(1){
+    background-color: #e30a7e;
+}
+
+.colors li:nth-child(2){
+    background-color: #61ae24;
+}
+.colors li:nth-child(3){
+    background-color: #f2f2f2;
+}
+.header{
+        line-height: 50px;
+    font-size: 2em;
+    font-family: 'Lato', sans-serif;
+}
+
+.para{
+
+    font-family: 'Raleway', sans-serif;
+
+    line-height: 1.6em;
+     font-size: 1em;
+}
