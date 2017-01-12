@@ -1,0 +1,34 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.logo{
+    float:left;
+}
+.hamburger{
+    float:right;
+}
+nav{
+    overflow:hidden;
+}
+.main_content{
+    margin-left:20%;
+    margin-right:60%;
+    width:40%;
+    margin-top:70px;
+    position: relative;
+    display: inline-block
+}
+h2{
+    padding:20px;
+}
+.side_image{
+    color: gainsboro;
+    height:300px;
+    width:20%;
+    border:5px;                                                                                                                              display: inline-block;
+}
