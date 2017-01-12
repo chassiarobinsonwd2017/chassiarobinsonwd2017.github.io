@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 @font-face {
     font-family: 'entypo';
     src: url('Entypo.otf');
@@ -11,4 +12,49 @@
     font-family: 'entypo', sans-serif;
     margin: 1.2em;
     font-size: 1.4em;
+=======
+body{
+    font-size: 1em;
+    line-height: 1.4em;
+}
+h3{
+    margin-top: 50px;
+
+    font-family: 'Megrim', cursive;
+    font-size: 35px;
+}
+.railway{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+}
+
+.colors li{
+    height: 50px;
+    width: 80px;
+    display: inline-block;
+    padding: 10px;
+}
+
+.colors li:nth-child(1){
+    background-color: #E54028;
+}
+
+.colors li:nth-child(2){
+    background-color: #01A4A4;
+}
+.colors li:nth-child(3){
+    background-color: #00A1CB;
+}
+.colors li:nth-child(4){
+    background-color: #61AE24;
+}
+.colors li:nth-child(5){
+    background-color: #D0D102;
+}
+.colors li:nth-child(6){
+    background-color: #F18D05;
+}
+.colors li:nth-child(7){
+    background-color: #D70060;
+>>>>>>> origin/master
 }
