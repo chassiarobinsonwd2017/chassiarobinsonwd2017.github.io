@@ -1,0 +1,15 @@
+.row1 div{
+    background:yellow;
+    height:100px;
+    border:1px solid black;
+}
+.row3 div{
+    background:orange;
+    height:100px;
+    border: 1px solid blue;
+}
+.row2 div{
+    background:green;
+    height:100px;
+    border: 1px solid blue;
+}
