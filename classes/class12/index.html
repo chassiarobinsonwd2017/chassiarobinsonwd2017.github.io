@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+      <head>
+             <title>planning page</title>
+          <link href="http://cdn.rawgit.com/noelboss/featherlight/1.7.0/release/featherlight.min.css" type="text/css" rel="stylesheet" />
+          <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+
+          <link href="main.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div>
+        <a href="#" data-featherlight="../class8/koala.jpeg">Open element in lightbox</a>
+<div class="mylightbox">This div will be opened in a lightbox</div>
+            </div>
+
+        <div class="myclass">
+  <div><img src ="../class8/koala.jpeg"></div>
+  <div><img src ="../class8/koala.jpeg"></div>
+  <div><img src ="../class8/koala.jpeg"></div>
+</div>
+
+              <div class="multiple">
+  <div><img src ="../class8/koala.jpeg"></div>
+  <div><img src ="../class8/koala.jpeg"></div>
+  <div><img src ="../class8/koala.jpeg"></div>
+ <div>this is the second</div>
+                  <div>hundred</div>
+                  <div>play</div>
+</div>
+
+                     <div class="center">
+  <div><img src ="../class8/koala.jpeg"></div>
+  <div><img src ="../class8/koala.jpeg"></div>
+  <div><img src ="../class8/koala.jpeg"></div>
+ <div>thfgdfsg</div>
+                  <div>hundfdgsdfred</div>
+                  <div>plafgdsffgy</div>
+</div>
+
+
+
+<iframe src="https://docs.google.com/document/d/18XG_QRwTjoWfZj4MuoDguJy9Ga5NWAo-58imh9ZvlNU/pub?embedded=true"></iframe>
+
+        <div class="rellax">
+  I’m that default chill speed of "-2"
+</div>
+<div class="rellax" data-rellax-speed="7">
+   <img src="grass.jpg">
+</div>
+<div class="rellax" data-rellax-speed="-4">
+  <img src="grass.jpg">
+</div>
+
+        <script src="http://code.jquery.com/jquery-latest.js"></script>
+<script src="http://cdn.rawgit.com/noelboss/featherlight/1.7.0/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+        <script type="text/javascript" src="http://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+        <script src="rellax.min.js"></script>
+
+
+        <script>
+        $(document).ready(function(){
+  $('.myclass').slick({
+      //autoplay:true,
+      //autoplaySpeed: 500
+  });
+              var rellax = new Rellax('.rellax');
+});
+            $('.multiple').slick({
+  infinite: true,
+  slidesToShow: 3,
+  slidesToScroll: 3
+});
+
+            $('.center').slick({
+  centerMode: true,
+  centerPadding: '160px',
+  slidesToShow: 3,
+  slidesToScroll: 3
+});
+        </script>
+
+    </body>
+
+
+
+
+</html>

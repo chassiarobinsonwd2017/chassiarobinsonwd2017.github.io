@@ -1,0 +1,27 @@
+.mylightbox{
+    display: none;
+
+}
+.featherlight .featherlight-content{
+    background: orange;
+    border-bottom-style: groove;
+    border-bottom-color: aqua;
+}
+.myclass img{
+    width:50%;
+}
+.multiple img{
+    width:50%;
+}
+.center div{
+     min-width:150px;
+    padding: 0 50px;
+}
+
+.center img{
+   max-width: 300px;
+}
+.rellax{
+    z-index: -5;
+    position: relative;
+}
