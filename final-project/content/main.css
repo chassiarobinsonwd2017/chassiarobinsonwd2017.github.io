@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background:  #f2f2f2;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+li a{
+    display: block;
+    width: 150px;
+    background-color: transparent;
+    border-top: 1px solid #63a70a;
+    border-bottom: 1px solid #63a70a;
+    text-align: center;
+     text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    line-height: 29px;
+    text-transform: uppercase;
+
+    color: black;
+}
+.home li:last-child {
+    border-bottom: none;
+}
+
+li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+.navRow{
+     padding: 20px;
+     height: 150px;
+
+}
+.home{;
+    margin-right:  320px;
+    width: 420px;
+
+    padding: 0;
+}
+.contact{
+        width: auto;
+
+        margin-right: 20px;
+    padding: 0;
+}
+img{
+    width: 100%;
+    height: 600px;
+}
+
+.slick-dots li.slick-active button{
+    background:#e30a7e;
+}
+
+.slick-dots li button::before{
+    font-size: 0px;
+}
+.slick-dots li button{
+    background: transparent;
+    border: 1px solid #e30a7e;
+}
+.slick-dots{
+    top: 25px;
+}
+a {
+    text-decoration: none;
+
+}
+.heading{
+    font-size: 32px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    line-height: 50px;
+    text-transform: uppercase;
+
+}
+.subheading{
+    font-size: 32px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    line-height: 50px;
+    color: #63a70a;
+    border-bottom: 1px solid #63a70a;
+    text-transform: uppercase;
+}
+p{
+    font-size: 18px;
+    line-height: 25.6px;
+    padding-top: 15px;
+    font-family: 'Lato', sans-serif;
+}
+.slick-slider {
+    width: 100%;
+    height: auto;
+    background: #63a70a;
+    position: relative;
+}
+.slick-prev{
+    left: 112px;
+
+}
+.slick-next{
+   right:112px;
+
+}
+.feedback{
+    text-align: center;
+    color: white;
+}
+footer{
+    background: #f2f2f2;
+    text-align: left;
+    padding: 10px;
+}
+footer .subheading{
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    text-align: left;
+    color: #63a70a;
+    text-transform: uppercase;
+    border-bottom: none;
+    padding: 10px;
+}
