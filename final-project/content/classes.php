@@ -1,4 +1,6 @@
- <div class="container-fluid">
+<? include ("assets/php/header.html"); ?>
+
+<div class="container-fluid">
 <div class ="heading"><h1>INTRODUCTION</h1></div>
            <div class="subHeadingRow">
           <div class="col-sm-6" >
@@ -20,3 +22,4 @@
           <div class="col-sm-6"><div class = "subheading"><h2>STANDARD PILATES CLASS</h2></div>
         <p>Beginners clas 35 shekels advanced 45 and and onthe of classes is 160.Special deals is you recommend a client.Private lessons 50 shekel a class.
               </p></div>
+<? include ("assets/php/footer.html"); ?>
