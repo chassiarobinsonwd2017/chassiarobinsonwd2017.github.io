@@ -1,4 +1,4 @@
-<? include ("assets/php/header.html"); ?>
+<? include ("header.html"); ?>
 
 <link href="https://fonts.googleapis.com/css?family=Lato|Raleway:700" rel="stylesheet">
 <form id="contact-form">
@@ -28,4 +28,4 @@
     </button>
   </p>
 </form>
-<? include ("assets/php/footer.html"); ?>
+<? include ("footer.html"); ?>

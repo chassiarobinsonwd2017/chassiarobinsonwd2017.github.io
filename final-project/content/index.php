@@ -1,4 +1,4 @@
-<? include ("assets/php/header.html"); ?>
+<? include ("header.html"); ?>
 
         <div class="mySlider">
   <div><img src ="assets/sea.jpeg"></div>
@@ -36,4 +36,4 @@
         </div>
             </div>
         </div>
-<? include ("assets/php/footer.html"); ?>
+<? include ("footer.html"); ?>
