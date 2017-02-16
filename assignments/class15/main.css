@@ -1,0 +1,30 @@
+.square{
+    height:100px;
+    width:100px;
+    background:red;
+    display: inline-block;
+    margin: 20px;
+
+}
+.square:nth-child(2){
+    background: green;
+
+}
+.square:nth-child(3){
+    background: orange;
+
+    transform: rotateX(125deg);
+}
+header{
+    background: linear-gradient(green,pink);
+    padding: 20px;
+    height:auto;
+  /*
+    border-bottom-left-radius:50% 20%;
+    border-bottom-right-radius:20% 50%; */
+    transform: scaleY(-6deg);
+transform-origin: top left;animation-direction:
+}
+.back{
+
+}
