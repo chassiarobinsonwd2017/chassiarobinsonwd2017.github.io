@@ -1,0 +1,99 @@
+h1{
+    font-size: 4vw;
+}
+h2{
+    font-size: 4vw;
+}
+section{
+    font-size: 2vw;
+}
+@media (max-width:450px){
+    section{
+    font-size: 4vw;
+    }
+}
+body{
+    background-color: olivedrab;
+    border: 2px solid orange;
+    height: 100vh;
+    margin: 0;
+    box-sizing: border-box;
+}
+.pp{
+    perspective: 200px;
+    perspective-origin: bottom left;
+}
+.pp div{
+    height:200px;
+    width:200px;
+    margin:20px;
+    display: inline-block;
+    transform:rotateX(45deg);
+    animation: myAnimation 1s 1s alternate infinite backwards;
+
+
+}
+.pp div:hover{
+    /*transform: rotateX(0deg);*/
+    animation-play-state: paused;
+
+}
+
+
+.pp div:nth-child(1){
+    background: darkorange;
+    transform: translateZ(-10px);
+}
+.pp div:nth-child(2){
+    background: lightcoral;
+    transform: translateZ(20px);
+}
+.pp div:nth-child(3){
+    background: blueviolet;
+    transform: translateZ(-20px);
+}
+/*@keyframes myAnimation{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+          transform: translateX(-20px);
+    }
+
+}*/
+.progress-bar{
+    width:500px;
+    height:50px;
+    border-radius: 20px;
+    background-color: aquamarine;
+    box-shadow: 0px -2px 2px 2px #fff inset;
+    margin: 20px auto;
+    box-sizing: border-box;
+    padding: 5px;
+}
+.meter{
+    width: 20%;
+    height:100%;
+    background-color: darksalmon;
+    box-shadow: 0px -2px 2px 2px yellow inset;
+    border-radius: 15px;
+    animation: progressbar 1s 1s alternate forwards;
+    position: relative;
+}
+.meter::after{
+    position: absolute;
+    content: ' ';
+    top:0;left:0; bottom: 0; right: 0;
+    border-radius: 15px;
+    background-image: linear-gradient(-45deg, hsla(250, 40%, 70%, .8) 25%,transparent 25%, transparent 50%, hsla(250, 40%, 70%, .4)50%, hsla(250, 40%, 70%, .8) 75%,transparent  75%,hsla(250, 40%, 70%, .8)100%,);
+    background-size: 50px 50px;
+
+}
+@keyframes progressbar{
+    from{
+        width:0%;
+    }
+    to{
+     width:100%;
+    }
+}
