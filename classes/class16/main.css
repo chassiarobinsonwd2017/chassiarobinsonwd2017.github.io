@@ -1,0 +1,19 @@
+*{
+    color: aqua;
+}
+
+
+.transition{
+    width:100px;
+    height:100px;
+    background:red;
+    margin:50px;
+    transition:font-size 1s;
+    padding:20px;
+}
+.transition:hover{
+   font-size: 2em;
+    color: darkmagenta;
+    height:300px;
+    transform: rotateX(180deg);
+}
