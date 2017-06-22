@@ -68,8 +68,12 @@ a{
     font-family: Segoe UI;
     padding-bottom: 10px;
 }
+nav li:hover{
+    background-color: #70dac7;
+    text-align: center;
+}
 a:visited {
-    color: #70dac7;
+
     text-decoration: none;
 }
 h3{
@@ -132,4 +136,18 @@ p {
     transform: rotate(360deg);
     margin-left: 205px;
 }
+
+#back{
+   direction: rtl;
+font-size: 20px;
+background-color: #70dac7;
+color: white;
+font-family: Segoe UI;
+margin-top: 10px;
+width: 1000px;
+text-align: right;
+margin-bottom: 30px;
+}
+
+
 

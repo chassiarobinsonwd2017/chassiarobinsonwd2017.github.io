@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+
+}
+body{
+  color: black;
+  background:  #f2f2f2;
+  padding-top: 30px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li a{
+    display: block;
+    /*width: 200px;*/
+    background-color: transparent;
+    border-top: 1px solid #63a70a;
+    border-bottom: 1px solid #63a70a;
+    text-align: left;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: black;
+
+}
+a li:first-child{
+    border-bottom: none;
+}
+
+/*li a.active {
+    color: #e30a7e;
+}
+li a:hover:not(.active){
+    color: black;
+}*/
+li a:hover {
+    text-decoration: none;
+    color: #63a70a;
+}
+a{
+    width:190px;
+    transition: width 1s;
+}
+a:hover {
+    width: 200px;
+
+    border-top: 2px solid #63a70a;
+    border-bottom: 2px solid #63a70a;s
+
+}
+
+
+.navRow row{
+     /*padding: 20px;
+     /*height: 100px;*/
+     position: relative;
+}
+
+
+.home{;
+    /*margin-right:  320px;
+    width: 420px;*/
+
+    padding: 0;
+}
+.contact{
+        /*width: auto;
+
+        /*margin-right: 20px;*/
+    padding: 0;
+}
+img{
+    max-width:100%;
+    height: auto;
+    background-size: cover;
+
+}
+
+
+
+.slick-dots li button::before{
+    font-size: 0px;
+}
+.slick-dots li button{
+    background: transparent;
+    border: 1px solid #e30a7e;
+}
+.slick-dots{
+    top: 25px;
+    padding-top: 30px;
+}
+a {
+    text-decoration: none;
+
+}
+.heading{
+    font-size: 32px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    line-height: 50px;
+    text-transform: uppercase;
+
+}
+
+.subheading{
+    font-size: 32px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    line-height: 50px;
+    color: #63a70a;
+    border-bottom: 1px solid #63a70a;
+    text-transform: uppercase;
+
+}
+@keyframes changeColor{
+     0%   {background-color: transparent;}
+     25%  {background-color: #63a70a;}
+     50%  {background-color: #e30a7e;}
+     100% {background-color: transparent;}
+}
+
+p{
+    font-size: 18px;
+    line-height: 25.6px;
+    padding-top: 15px;
+    font-family: 'Lato', sans-serif;
+    padding-bottom: 20px;
+    padding-left: 70px;
+}
+.slick-slider {
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+    position: relative;
+    padding-bottom: 20px;
+}
+.slick-prev{
+    left: 5%;
+    top: 20%;
+}
+.slick-next {
+    right: 5%;
+    top: 20%;
+}
+.feedback{
+    text-align: center;
+    color: white;
+    background: #63a70a;
+    padding: 10px;
+
+}
+footer{
+    background: transparent;
+    text-align: left;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+
+}
+footer p:hover{
+    animation-name: changeColor;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+footer .subheading{
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    text-align: left;
+    color: #63a70a;
+    text-transform: uppercase;
+    border-bottom: 1px solid #63a70a;
+
+}
+.col-sm-2 {
+    /*padding-top: 40px;*/
+
+}
+.col-sm-3 {
+
+
+}
+.heading img{
+    position: absolute;
+    margin-left: -181px;
+    margin-top: -15px;
+}
+.h1, h1{
+    position: relative;
+    color: white;
+}
+.col-xs-4 img{
+    max-width:100%;
+    height: auto;
+    padding-top: 50px;
+}
+.col-sm-6{
+    padding-top: 25px;
+    padding-bottom: 20px;
+     margin-left: 20px;
+}
+.col-sm-6 img{
+    padding-top: 63px;
+
+}
+.classes .heading img {
+    position: absolute;
+   margin-left: -208px;
+margin-top: -15px;
+}
+.contacthead .heading img{
+    position: absolute;
+    margin-left: -178px;
+    margin-top: -15px;
+    padding-bottom: 20px;
+
+}
+.space img{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.row{
+
+    margin-right: 0px;
+   margin-left: 0px;
+}
+.col-sm-3 a:hover{
+    border: none;
+}
+.slick-prev, .slick-next {
+z-index: 7;
+    font-weight: 800;
+}
+table{
+    margin-left: 90px;
+margin-top: 50px;
+border: solid 2px #63a70a;
+    background-color: transparent;
+}
+th{
+    text-align: left;
+    border-right: solid 1px #63a70a;
+    padding: 10px;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
+tr {
+    border-bottom: solid 1px #63a70a;
+}
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
